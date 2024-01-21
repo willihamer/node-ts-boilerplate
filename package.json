@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon --exec node --loader ts-node/esm index.ts",
-    "start": "tsc && node dist/index.js"
+    "start": "tsc && node dist/index.js",
+    "lint": "eslint . --ext .ts"
   },
   "author": "Hamer P",
   "license": "ISC",
