@@ -10,6 +10,7 @@
     "useUnknownInCatchVariables": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
   },
   "lib": [
     "es2022"
@@ -22,6 +23,8 @@
     "dist"
   ],
   "ts-node": {
+    "experimentalSpecifierResolution": "node",
+    "transpileOnly": true,
     "esm": true,
   },
 }
